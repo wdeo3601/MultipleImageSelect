@@ -1,38 +1,28 @@
 #MultipleImageSelect
 
+# Tips
+
+forked from darsh2/MultipleImageSelect, use `androidx`、`update glide to 4.10.0`.
+
 ![Alt text](/screenshots/mis.gif)
 
 An android library that allows selection of multiple images from gallery. It shows an initial
 album (buckets) chooser and then images in selected album. Can limit the number of images that
 can be selected. Can be used in apps with APK 11 onwards.
 
-Sample app can be found [here](https://github.com/darsh2/MultipleImageSelect/tree/master/sample) 
+Sample app can be found [here](https://github.com/wdeo3601/MultipleImageSelect/tree/master/sample)
 #Usage
 Include this library in your project using gradle (thanks to [JitPack.io](https://github.com/jitpack-io)).
 
-For stable build:
 ```gradle
 repositories {
   maven {
-    url "https://jitpack.io"
+    url "https://dl.bintray.com/wdeo3601/maven"
   }
 }
 
 dependencies {
-  compile 'com.github.darsh2:MultipleImageSelect:v0.0.4'
-}
-```
-
-For using the latest build, replace the tag in dependencies above with latest commit hash. Example:
-```gradle
-repositories {
-  maven {
-    url "https://jitpack.io"
-  }
-}
-
-dependencies {
-  compile 'com.github.darsh2:MultipleImageSelect:3474549'
+  implementation 'com.wdeo3601:multiple-image-select:1.0.6'
 }
 ```
 
